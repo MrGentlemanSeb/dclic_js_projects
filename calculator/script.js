@@ -9,6 +9,12 @@ function calculate() {
   document.getElementById('result').value = answer;
 }
 
+// function clearResult() {
+//   document.getElementById('result').value = '';
+// }
 function clearResult() {
-  document.getElementById('result').value = '';
-}
+    var currentResult = document.getElementById('result').value;
+    var newResult = currentResult.slice(0, -1);
+    document.getElementById('result').value = newResult;
+  }
+  
