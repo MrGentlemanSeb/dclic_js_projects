@@ -16,6 +16,7 @@
     margin-top: 0;
     color: #fff;
     font-family: 'Segoe UI';
+    background:hsl(0, 5%, 18%) ;
 }
 input[type="button"] {
   width: 40px;
